@@ -19,4 +19,3 @@ if weekday == 1:
         connection.login(user=my_email, password=password)
         connection.sendmail(from_addr=my_email, to_addrs="jskou58@gmail.com", msg=f"Subject:Monday Motivation\n\n{quote}")
 
-
